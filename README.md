@@ -56,4 +56,4 @@ Screenshots
 
 Author
 
-Ifunanya
+Ifunanya F. Onyekwelu
