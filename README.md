@@ -9,6 +9,7 @@ Each row is one customer order, with these columns:
 CustomerID, Gender, MaritalStatus, YearlyIncome, Revenue, OrderDate, Country, BirthDate, Firstname, Lastname
 
 What I Did
+
 Stage 1: Data Exploration
 
 Used COUNTA, MIN, MAX, SUM and AVERAGE to profile the data.
@@ -39,9 +40,9 @@ Stage 3: Analysis
 Built a summary table of total revenue by country and gender using SUMIFS, with totals and a grand total.
 
 
-Stage 4: Data Visualization
-Revenue by Country: column chart
-Proportion of Revenue by Age Band: pie chart
+Stage 4: Data Visualization Revenue by Country: 
+
+column chart Proportion of Revenue by Age Band: pie chart
 Revenue by Male and Female in each Country: clustered column chart
 Key Findings
 Australia generates the most revenue (about £7.1M, roughly a third of the total), followed by Southwest (£3.6M) and the United Kingdom (£2.9M).
