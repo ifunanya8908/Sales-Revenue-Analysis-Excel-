@@ -20,6 +20,8 @@ Minimum revenue	2.53
 Maximum revenue	5,398.35
 Total revenue	£21,764,629
 Average revenue	1,249.26
+
+
 Stage 2: Data Preparation
 
 Added six new columns to the data table:
@@ -30,9 +32,12 @@ CustomerName (first and last name merged, lowercase) using LOWER
 CustomerAge (age at the time of order) using DATEDIF
 AgeBand using IFS: Teenager (13-19), Young Adult (20-34), Adult (35-49), Seniors (50-64), Elderly (65+)
 CustomerValue using IFS: Casual Buyers (up to 1,500), Brand Seekers (1,501-2,500), Convinced Seekers (above 2,500)
+
+
 Stage 3: Analysis
 
 Built a summary table of total revenue by country and gender using SUMIFS, with totals and a grand total.
+
 
 Stage 4: Data Visualization
 Revenue by Country: column chart
@@ -51,7 +56,7 @@ Files
 Sales-Revenue-Analysis-Excel.xlsx: the full workbook
 Excel project sheet: the dataset with the new columns, and the Stage 3 summary table
 Project Answer sheet: Stage 1 answers and Stage 4 charts
-Screenshots
+
 
 
 Author
